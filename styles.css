@@ -1,0 +1,76 @@
+body {
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  background: #090b1a;
+}
+
+.maincontainer {
+  height: 90vh;
+  width: 90vw;
+  margin: 5vh auto;
+  border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.main-text {
+  margin-top: -5px;
+  padding: 5% 5%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: #1b1938;
+  max-height: 100%;
+}
+
+.main-text h1, .main-text p {
+  text-align: center;
+}
+
+.main-text .main-heading {
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.main-text span {
+  color: #aa5cdb;
+}
+
+.main-text .main-paragraph {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.main-text .stats-text {
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  font-family: Lexend Deca, sans-serif;
+  margin-top: -20px;
+}
+
+.main-text .stats {
+  color: white;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.attribution {
+  text-align: center;
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */
